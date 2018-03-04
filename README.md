@@ -26,8 +26,8 @@ The maze itself is the equivelent of a graph. All the maze class does is manage 
 The form is a simple GUI that contains two buttons to solve and exit the program along with a custom user control that handles and displays any interaction between the maze and the user. The only real interaction between a user and the maze is a user clicking the solve button. In responce the user control was call the Maze's solve method and display which Nodes were visited and the path of Nodes needed to solve the Maze. The user control also draws each point onto the form with different color lines to visualize the maze to the user.
 Example of the form:
 
-![MazeFormExample](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExample.PNG)
-![MazeFormSolved](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExampleSolved.PNG)
+[Maze Form Example](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExample.PNG)
+[Maze Form Solved](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExampleSolved.PNG)
 
 
 ## Algorithm
