@@ -3,7 +3,7 @@ MazeAI is a windows program that does a depth first search of a custom graph tha
 ## Maze
 The maze is built apon what are called maze nodes which are objects that represent a desision point in a maze. A desision point is a point in which the AI would have to make a choice for which direction to go in. For my implimentation of the maze I choose to create nodes at every desision point where the program could go in a different direction than they're currently going in i.e turning left or right. 
 When creating the maze I took a picture of a maze and converted it into a plane of x and y's and figured out where each descison point would be at as shown in picture below.
-![MazeGrid](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/mazeGrid.png)
+![MazeGrid](https://JoshuaEstrada329.github.io/MazeAI/blob/master/mazeTest/mazeGrid.png)
 
 ### Maze Node
 as mention aboved a Maze Node is used to represent a decision point in the maze. Furthermore, the following information is stored in the Maze Node object
@@ -26,8 +26,8 @@ The maze itself is the equivelent of a graph. All the maze class does is manage 
 The form is a simple GUI that contains two buttons to solve and exit the program along with a custom user control that handles and displays any interaction between the maze and the user. The only real interaction between a user and the maze is a user clicking the solve button. In responce the user control was call the Maze's solve method and display which Nodes were visited and the path of Nodes needed to solve the Maze. The user control also draws each point onto the form with different color lines to visualize the maze to the user.
 Example of the form:
 
-[Maze Form Example](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExample.PNG)
-[Maze Form Solved](https://github.com/JoshuaEstrada329/MazeAI/blob/master/mazeTest/FormExampleSolved.PNG)
+![Maze Form Example](https://JoshuaEstrada329.github.io/MazeAI/blob/master/mazeTest/FormExample.PNG)
+![Maze Form Solved](https://JoshuaEstrada329.github.io/MazeAI/blob/master/mazeTest/FormExampleSolved.PNG)
 
 
 ## Algorithm
