@@ -8,8 +8,8 @@ When creating the maze I took a picture of a maze and converted it into a plane 
 ### Maze Node
 as mention aboved a Maze Node is used to represent a decision point in the maze. Furthermore, the following information is stored in the Maze Node object
 ```
-Enum NodeType: Gives the node special attributes if given the NodeType Start or End, 
-both types represent the start and finish of the maze of the respective type.
+Enum NodeType: Gives the node special attributes if given the NodeType Start or 
+End, both types represent the start and finish of the maze of the respective type.
 
 ID: The ID is used to uniquely identify the node from the rest of the nodes.
 
